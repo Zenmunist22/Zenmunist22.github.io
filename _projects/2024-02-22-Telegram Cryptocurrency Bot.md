@@ -8,8 +8,6 @@ A storefront project built on telegram powered by python-telegram-bot library us
 
 The bot features a clickable chat menu for all the goods and information that a PB&J enjoyer might find useful.
 
-![Telegram Screenshot of Main Menu]({{site.baseurl}}/assets/images/Telegram-MainMenu_Screenshot.PNG){: .img-fluid}
-
 
 ### Purpose
 - The project is a fully functional storefront, that sells... PB&Js!
@@ -17,6 +15,12 @@ The bot features a clickable chat menu for all the goods and information that a 
         - White Bread
         - Whole Wheat
         - Honey Wheat
+
+![Telegram Screenshot of Main Menu]({{site.baseurl}}/assets/images/Telegram-MainMenu_Screenshot.PNG){: .img-fluid .screenshot .shadow-lg}
+![Telegram Screenshot of Main Menu]({{site.baseurl}}/assets/images/Telegram-PB&J_Screenshot.PNG){: .img-fluid .screenshot .shadow-lg}
+![Telegram Screenshot of Main Menu]({{site.baseurl}}/assets/images/Telegram-PB&J_Cart_Screenshot.PNG){: .img-fluid .screenshot .shadow-lg}
+![Telegram Screenshot of Main Menu]({{site.baseurl}}/assets/images/Telegram-Checkout_Screenshot.PNG){: .img-fluid .screenshot .shadow-lg}
+
 
 #### Current Capabilities
 - Able to order any item with any bread with any quantity
@@ -26,10 +30,13 @@ The bot features a clickable chat menu for all the goods and information that a 
 - Stores information on user activity (buttons pressed, last active, etc.)
 - Retains user chat and cart state between sessions
 
-### Technologies Involved
+### Technologies/Tools Involved
 - AWS EC2 (Hosting the Telegram Bot)
 - MongoDB Atlas (Powers the database)
 - Vercel (Next.js host)
+- Python-Telegram-Bot (Library for interacting with Telegram)
+- Bit (Calculates the USD -> Bitcoin Rate and other bitcoin transactions)
+- ReactJS (Used for creating a dashboard/table for viewing database)
 
 ## Project Challenges
 ##### Anonymity 

@@ -1,9 +1,12 @@
-$font-stack: Helvetica, sans-serif;
+$font-stack: "Montserrat","Montserrat Local Fallback",sans-serif;
 $primary-color: #333;
 
-$nav-link-hover-color: blue;
+$nav-link-hover-color: lightblue;
+$active-link-color: greenyellow;
 $enable-shadows: true;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
 
 
 .current {
@@ -29,4 +32,10 @@ $enable-shadows: true;
     .parent-row {
         height: 100%;
     }
+}
+.screenshot {
+    border: 20px solid transparent;
+}
+.active {
+    color: $active-link-color;
 }
