@@ -11883,12 +11883,20 @@ textarea.form-control-lg {
 }
 
 .sidenav {
-  height: 100vh;
+  height: auto;
   border-right: 3px solid var(--bs-secondary-color);
 }
 
+.nav {
+  position: fixed;
+  height: auto;
+}
 .main-body {
   margin-left: 0;
+  height: 100vh;
+}
+.main-body .parent-row {
+  height: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
