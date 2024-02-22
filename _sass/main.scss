@@ -1,0 +1,26 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+$nav-link-hover-color: blue;
+$enable-shadows: true;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.current {
+    color: green;
+}
+
+.sidenav{
+    height: 100vh;
+    border-right: 3px solid var(--bs-secondary-color);
+}
+
+
+.nav {
+    a  {
+       
+    }
+}
+.main-body{
+    margin-left: 0;
+}

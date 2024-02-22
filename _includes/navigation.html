@@ -1,0 +1,18 @@
+<nav class="nav flex-column ">
+    <h1>Tommy Chang</h2>
+    
+    {% for item in site.data.navigation %}
+
+            <a href="{{item.link}}" 
+                {% if page.url == item.link %}
+                    class="nav-link"
+                {% else %} 
+                    class="nav-link"
+                {% endif %} > 
+                {{item.name}}
+            </a>
+
+        
+    {% endfor %}
+
+</nav>
