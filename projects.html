@@ -3,11 +3,13 @@ title: My Code Projects
 ---
 <h1>My Code</h1>
 
-<ul>
+<ul class="list-group " role="list">
     {% for project in site.projects %}
-    <li>
-        <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-        {{ project.desc }}
+    <li class="list-group-item">
+        
+        <h1><a href="{{ project.url }}"><strong>{{ project.title }} </strong></a> </h1>
+        <blockquote class="blockquote project-date"><em> {{ project.project_date }} </em></blockquote>
+        <p class="lead"> {{ project.desc }} </p>
     </li>
     {% endfor %}
 </ul>

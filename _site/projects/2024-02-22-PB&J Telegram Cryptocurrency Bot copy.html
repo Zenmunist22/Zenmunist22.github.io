@@ -2,16 +2,16 @@
 <html data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
-    <title>Telegram cryptocurrency bot</title>
+    <title>Pb&j telegram cryptocurrency bot copy</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     
   </head>
   <body>
-    <div class="container main-body">
+    <div class="container-fluid main-body">
       <div class="row parent-row">
-        <div class="col-4 sidenav shadow-lg">
+        <div class="col-sm-2 d-none d-md-block sidenav shadow-lg">
           <nav class="nav flex-column ">
-    <h1>Tommy Chang</h2>
+    <h1>Tommy Chang</h1>
     
     
 
@@ -57,15 +57,15 @@
 
 </nav>
         </div>
-        <div class="col shadow-lg">
-          <h1 id="telegram-cryptocurrency-bot">Telegram-Cryptocurrency-Bot</h1>
+        <div class="col offset-1 right shadow-lg">
+          <h1 id="pbj-telegram-cryptocurrency-bot">PB&amp;J Telegram-Cryptocurrency-Bot</h1>
 <p>A storefront project built on telegram powered by python-telegram-bot library using Bitcoin for transactions.</p>
 
 <p>The bot features a clickable chat menu for all the goods and information that a PB&amp;J enjoyer might find useful.</p>
 
 <h3 id="purpose">Purpose</h3>
 <ul>
-  <li>The project is a fully functional storefront, that sells… PB&amp;Js!
+  <li>The project is a fully functional storefront, that sells… PB&amp;Js for Bitcoin!
     <ul>
       <li>Offers a wide variety of PB&amp;J items with different bread combinations
         <ul>
@@ -81,8 +81,10 @@
 <p><img src="/assets/images/Telegram-MainMenu_Screenshot.PNG" alt="Telegram Screenshot of Main Menu" class="img-fluid screenshot shadow-lg" />
 <img src="/assets/images/Telegram-PB&amp;J_Screenshot.PNG" alt="Telegram Screenshot of Main Menu" class="img-fluid screenshot shadow-lg" />
 <img src="/assets/images/Telegram-PB&amp;J_Cart_Screenshot.PNG" alt="Telegram Screenshot of Main Menu" class="img-fluid screenshot shadow-lg" />
-<img src="/assets/images/Telegram-Checkout_Screenshot.PNG" alt="Telegram Screenshot of Main Menu" class="img-fluid screenshot shadow-lg" /></p>
-
+<img src="/assets/images/Telegram-Checkout_Screenshot.PNG" alt="Telegram Screenshot of Main Menu" class="img-fluid screenshot shadow-lg" />
+<img src="/assets/images/React_PB&amp;J_Orders.PNG" alt="Telegram Screenshot of DB in React" class="img-fluid screenshot shadow-lg" />
+<img src="/assets/images/React_PB&amp;J_Cart.PNG" alt="Telegram Screenshot of DB in React" class="img-fluid screenshot shadow-lg" />
+<img src="/assets/images/React_PB&amp;J_Users.PNG" alt="Telegram Screenshot of DB in React" class="img-fluid screenshot shadow-lg" /></p>
 <h4 id="current-capabilities">Current Capabilities</h4>
 <ul>
   <li>Able to order any item with any bread with any quantity</li>
@@ -90,7 +92,8 @@
   <li>View MongoDB data on a React Webpage</li>
   <li>Modify any data on React datatables</li>
   <li>Stores information on user activity (buttons pressed, last active, etc.)</li>
-  <li>Retains user chat and cart state between sessions</li>
+  <li>Retains user chat and cart state between sessions
+{.paper}</li>
 </ul>
 
 <h3 id="technologiestools-involved">Technologies/Tools Involved</h3>
@@ -118,7 +121,7 @@
 <p>Telegram offers API for interacting with their bot chats, encrypted chats, and is a very popular tool for discrete conversations.</p>
 
 <h5 id="telegram">Telegram</h5>
-<p>Telegram provides an HTTP API that can be quite  For me, I wanted to get this project running without having to deep dive into the telegram rabbit hole of HTTP Requests.</p>
+<p>Telegram provides an HTTP API that can be used with a lot of customizability. I wanted to get this project running without having to deep dive into the boilerplate code and was willing to trade off some of the customizability associated.</p>
 
 <p>I chose python-telegram-bot library for its simplicity and representation of the telegram api in similar naming schemes.</p>
 
@@ -126,6 +129,11 @@
 <p>Bitcoin is known as a “anonymous” currency. Where the coins cannot be traced to the original sender, and if tried will be met with difficulty.</p>
 
 <p>In reality, coins can be traced with enough effort. There are ways to disguise the sender such as Mixers, but ultimately still put the sender at risk of being traced.</p>
+
+<p>Using bitcoin as a user is easy enough. Sign up with a wallet and then deposit money like any normal bank account, finally send money to a specified address.
+Users can see a transaction ID associated with the block being verified depending on the wallet’s capabilities. Coinbase shows a TxID but you’d have to do quite some digging. Cashapp has no way to show TxID.</p>
+
+<p>There’s a small fee associated with sending money and can be expensive during high bitcoin traffic hour.</p>
 
         </div>
       </div>

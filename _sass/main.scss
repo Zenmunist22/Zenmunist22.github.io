@@ -7,10 +7,27 @@ $enable-shadows: true;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+h1, .h1{
+    font-size: calc(1.375rem)
+}
 
 
-.current {
-    color: green;
+@media (min-width: 1200px){
+    h1, .h1 {
+        font-size: 2rem;
+    }
+}
+
+
+
+.nav {
+    position: fixed;
+    height: auto;
+    font-size: 1.2em;
+    a  {
+       border-left: 1px solid $nav-link-hover-color;
+       margin-bottom: 10px;
+    }
 }
 
 .sidenav{
@@ -19,15 +36,9 @@ $enable-shadows: true;
 }
 
 
-.nav {
-    position: fixed;
-    height: auto;
-    a  {
-       
-    }
-}
 .main-body{
     margin-left: 0;
+    margin-right: 40%;
     height: 100vh;
     .parent-row {
         height: 100%;
@@ -35,7 +46,26 @@ $enable-shadows: true;
 }
 .screenshot {
     border: 20px solid transparent;
+    max-width: 60%;
 }
 .active {
     color: $active-link-color;
+}
+.current {
+    color: green;
+}
+.right {
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.project-date{
+    margin-bottom:0;
+}
+
+.list-group-item{
+    border-top: none;
+    border-right: none;
+    
+
+
 }
