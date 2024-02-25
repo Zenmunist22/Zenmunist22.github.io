@@ -3,7 +3,8 @@ layout: projects
 author: Tommy
 desc: A PB&J storefront project built on telegram powered by python-telegram-bot library using Bitcoin for transactions.
 project_date: November 2023 - Present
----
+order_number: 2
+--- 
 # PB&J Telegram-Cryptocurrency-Bot
 A storefront project built on telegram powered by python-telegram-bot library using Bitcoin for transactions.
 
