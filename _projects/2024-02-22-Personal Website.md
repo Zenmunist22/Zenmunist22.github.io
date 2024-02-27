@@ -12,7 +12,7 @@ A personal website to display my projects and misc. activities. Built using Jeky
 ### Purpose 
 - I wanted to display my projects in a way that can be easily acessible by friends/colleagues.
     - Bonus: Share my cooking and keep a timeline of anything I'll be into
-
+![Telegram Screenshot of Main Menu]({{site.baseurl}}/assets/images/Telegram-MainMenu_Screenshot.PNG){: .img-fluid .screenshot .shadow-lg}
 ![File Layout for personal website]({{site.baseurl}}/assets/images/PersonalWebsite_File_Layout.PNG){: .img-fluid .screenshot .shadow-lg}
 ### Current Capabilities
 - Create entries for pages using markdown
